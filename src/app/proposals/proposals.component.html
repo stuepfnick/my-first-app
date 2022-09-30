@@ -1,0 +1,13 @@
+<app-profile-row [canFollow]="false"></app-profile-row>
+
+<div class="margin-bottom-16">
+    <b>Freundesvorschläge</b>
+</div>
+
+<app-profile-row 
+    *ngFor="let friend of friends" 
+    [name]="friend.name"
+    [description]="friend.description"
+    [image]="friend.image">
+    [canFollow]="fs.isFriend(friend.name)"
+</app-profile-row>
