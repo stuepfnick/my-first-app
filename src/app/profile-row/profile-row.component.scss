@@ -19,12 +19,3 @@
 .name {
     width: 120px;
 }
-
-a {
-    font-size: 12px;
-    color: blue;
-    cursor: pointer;
-    &:hover {
-        text-decoration: underline;
-    }
-}

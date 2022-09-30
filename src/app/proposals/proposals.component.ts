@@ -12,7 +12,7 @@ export class ProposalsComponent implements OnInit {
 
   friends = friends;
 
-  constructor() { }
+  constructor(public fs: FriendService) { }
 
   ngOnInit(): void {
   }

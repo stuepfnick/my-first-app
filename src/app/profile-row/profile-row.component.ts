@@ -17,5 +17,4 @@ export class ProfileRowComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

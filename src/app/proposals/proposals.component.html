@@ -8,6 +8,7 @@
     *ngFor="let friend of friends" 
     [name]="friend.name"
     [description]="friend.description"
-    [image]="friend.image">
-    [canFollow]="fs.isFriend(friend.name)"
+    [image]="friend.image"
+    [canFollow]="!fs.isFriend(friend.name)"
+    >
 </app-profile-row>

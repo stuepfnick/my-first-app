@@ -15,5 +15,12 @@ export class FriendService {
     this.friends.push({name, image, description});
   }
 
+  removeFriend(name: string) {
+    this.friends = this.friends.filter(friend => friend.name !== name);
+  }
+
+  isFriend(name: string): boolean {
+      return this.friends.filter(friend => friend.name === name).length >= 1;
+  }
 
 }
