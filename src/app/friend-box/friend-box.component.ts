@@ -8,7 +8,7 @@ import { FriendService } from '../friend.service';
 })
 export class FriendBoxComponent implements OnInit {
 
-  constructor(public fs: FriendService) { }
+  constructor(public friendService: FriendService) { }
 
   ngOnInit(): void {
   }

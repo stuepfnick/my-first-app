@@ -1,12 +1,12 @@
 <div class="default-card padding-16 friend-row">
 
-    <div *ngIf="fs.friends.length === 0">
+    <div *ngIf="friendService.friends.length === 0">
         Du hast keine Freunde 🐹
     </div>
 
-    <div class="friend" *ngFor="let friend of fs.friends">
+    <div class="friend" *ngFor="let friend of friendService.friends">
         <img src="{{ friend.image }}">
         {{ friend.name }}
-        <a (click)="fs.removeFriend(friend.name);">Entfolgen</a>
+        <a (click)="friendService.removeFriend(friend.name);">Entfolgen</a>
     </div>
 </div>

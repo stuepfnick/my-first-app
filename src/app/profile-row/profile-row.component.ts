@@ -13,7 +13,7 @@ export class ProfileRowComponent implements OnInit {
   @Input() description: string = '3 Jahre alt';
   @Input() canFollow: boolean = true;
 
-  constructor(public fs: FriendService) { }
+  constructor(public friendService: FriendService) { }
 
   ngOnInit(): void {
   }
