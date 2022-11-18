@@ -1,6 +1,6 @@
 This is my first app, created with Angular. I spent about 2 days learning and creating this quite simple project. Really like the component system and dependency injection, i.e. you can use the same instance of a service class easily for different components, without the need for a singleton pattern.
 
-Next interesting steps would be to learn, how to connect to the backend through the HttpClient class. Did some experiments with pure JavaScript and fetch (or jQuery AJAX), theoretically this should also work with an angular app, but I am pretty sure, the HttpClient is much better suited. 😉
+Next interesting steps would be to learn, how to connect to the backend through the HttpClient class. Did some experiments with pure JavaScript and fetch (and jQuery AJAX), theoretically this should also work with an angular app, but I am pretty sure, the HttpClient is much better suited. 😉
 
 # MyFirstApp
 
